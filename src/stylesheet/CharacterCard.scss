@@ -1,0 +1,50 @@
+
+.card  {
+  width: 250px;
+  height: 300px;
+  margin: 15px;
+  border: 3px solid rgb(43, 42, 40);
+  border-radius: 15px;
+  color: black;
+  background-color: rgb(79, 218, 79);
+  cursor: pointer;
+  &:hover{
+    box-shadow: 0px 0px 7px 7px rgb(43, 42, 40);
+    transform: scale(1.05);
+  }
+}
+
+.card-img {
+  width: 250px;
+  height: 220px;
+  border-radius: 12px;
+}
+
+.cards_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Merriweather", serif;
+}
+
+.card_title {
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.card_name {
+  margin: 0;
+  list-style:none;
+  color: black;
+}
+
+.link_btn {
+  width: 250px;
+  height: 300px;
+  list-style:none;
+  text-decoration: none;
+}
+

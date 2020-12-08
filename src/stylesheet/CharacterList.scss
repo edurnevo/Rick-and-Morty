@@ -1,0 +1,63 @@
+.cards  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.not_found  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  color: rgb(43, 145, 170);
+  font-size: 50px;
+  font-weight: bold;
+  -webkit-text-stroke: 2px rgb(226, 217, 83);
+  text-shadow: 0 0 0.2em rgb(226, 217, 83);
+  margin: 20px;
+}
+
+.parpadea_not_found_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  font-size: 50px;
+  color: rgb(43, 145, 170);
+  -webkit-text-stroke: 2px rgb(226, 217, 83);
+  text-shadow: 0 0 0.2em rgb(226, 217, 83);
+  margin-top: 0;
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  
+  
+  @-moz-keyframes parpadeo{
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+}

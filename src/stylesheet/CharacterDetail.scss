@@ -1,0 +1,41 @@
+.details_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+  margin: 15px;
+  border: 3px solid rgb(43, 42, 40);
+  border-radius: 15px;
+  color: black;
+  background-color: black; 
+  margin: 8px;
+}
+
+.card_img {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.detailed_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_name  {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Merriweather", serif;
+}
+
+.back_btn  {
+  text-decoration: none;
+  color: rgb(43, 145, 170);
+  font-family: "Merriweather", serif;
+}

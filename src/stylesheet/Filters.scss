@@ -1,0 +1,30 @@
+.section_input  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 768px){
+    
+    
+  }
+}
+
+.input{
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(79, 218, 79);
+  box-shadow: 0px 0px 6px 6px rgb(43, 42, 40);
+  transform: scale(1.05);
+  margin-top: 20px;
+  
+}
+
+.label_search {
+  font-family: "Merriweather", serif;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 0.5em rgb(226, 217, 83), 0 0 0.5em rgb(226, 217, 83);
+}
